@@ -19,7 +19,7 @@ elif player==2:
 elif player==3:
     print("You chose: ✌️")
 else:
-    print("erm wrong")
+    print("Please pick a number 1-3.")
 
 if cpu==1:
     print("CPU chose: ✊")
@@ -28,7 +28,7 @@ elif cpu==2:
 elif cpu==3:
     print("CPU chose: ✌️")
 else:
-    print("PLease pick a number 1-3.")
+    print("Please pick a number 1-3.")
 
 if player==1 and cpu==3:
     print("Rock beats Scissors so PLAYER wins!")
